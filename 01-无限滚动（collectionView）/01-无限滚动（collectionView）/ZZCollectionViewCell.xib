@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Tfg-gy-N9S" customClass="ZZCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="125" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NN8-PR-ycL">
+                        <rect key="frame" x="0.0" y="0.0" width="125" height="100"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="NN8-PR-ycL" firstAttribute="top" secondItem="Tfg-gy-N9S" secondAttribute="top" id="C7w-8h-dRH"/>
+                <constraint firstItem="NN8-PR-ycL" firstAttribute="leading" secondItem="Tfg-gy-N9S" secondAttribute="leading" id="IGg-hh-kLc"/>
+                <constraint firstAttribute="trailing" secondItem="NN8-PR-ycL" secondAttribute="trailing" id="PmO-tF-ane"/>
+                <constraint firstAttribute="bottom" secondItem="NN8-PR-ycL" secondAttribute="bottom" id="R2U-bz-Fb5"/>
+            </constraints>
+            <size key="customSize" width="125" height="100"/>
+            <connections>
+                <outlet property="imageView" destination="NN8-PR-ycL" id="Md4-8T-fYr"/>
+            </connections>
+            <point key="canvasLocation" x="138.5" y="337"/>
+        </collectionViewCell>
+    </objects>
+</document>
